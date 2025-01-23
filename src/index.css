@@ -5,13 +5,13 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 font-family: Outfit;
-scroll-behavior: smooth;
 }
-html,body{
+body{
   min-height : 100vh;
-   overflow-x: hidden;
 }
-
+html{
+ overflow-x: hidden;
+}
 a{
   text-decoration: none;
   color: inherit;
