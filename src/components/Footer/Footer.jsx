@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className="footer-content-center">
           <h2>COMPANY</h2>
-          <li>Home</li>
+         <Link to='/' onClick={()=>setMenu("home")} >home</Link>
           <li>About-us</li>
           <li>Delivery</li>
           <li>Privacy policy</li>
